@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+     }   
+     .s{
+         position: relative;
+         width: 100%;
+         height: 100vh;
+     }
+     .bg{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: contain;
+     }
+     #particles-js{
+         position: relative;
+         height: 100vh;
+         background: #fff;
+         mix-blend-mode: screen;
+     }
+    </style>
+</head>
+<body>
+   <section class="s">
+       <img src="i4.jpeg" class="bg">
+       <div id="particles-js"></div>
+   </section> 
+   <script src="particles.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>
